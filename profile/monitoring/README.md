@@ -21,6 +21,9 @@ This means that not all processes are completely covered via tracing, but only t
 
 ![image](https://github.com/user-attachments/assets/a55c2719-777a-4937-a1d5-45be9ee8a230)
 
+Here the integration test (mock ACaaD server API) returns a purposefully wrong openapi response, which is why the `request-parse` step fails. 
+In a production scenario this provides valuable insights _in case something would go wrong_.
+
 ### Consumer Startup
 
 ![image](https://github.com/user-attachments/assets/56592eeb-477a-4882-9eee-5045e5642742)
